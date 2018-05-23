@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Materilize CSS</title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+</head>
+
+<body>
+  <header class="block">
+    <nav class="main-menu">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">
+          <img src="https://rupeek.com/images/rupeek-logo.svg" class="responsive-img" />
+        </a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="sass.html">Teams</a>
+          </li>
+          <li>
+            <a href="badges.html">Stories</a>
+          </li>
+          <li>
+            <a href="collapsible.html">Sign In</a>
+          </li>
+          <li>
+            <a id="menu">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <a href="sass.html">Sass</a>
+      </li>
+      <li>
+        <a href="badges.html">Components</a>
+      </li>
+      <li>
+        <a href="collapsible.html">Javascript</a>
+      </li>
+      <li>
+        <a href="mobile.html">Mobile</a>
+      </li>
+    </ul>
+  </header>
+  <section class="body-wrapper block">
+    <section class="banner-wrapper block">
+      <div class="container">
+        <div class="row flex section-padding-20px flex-direction-column-mobile">
+          <div class="col s12 m12 l6 xl5">
+            <div class="banner-text white-color">
+              <h1 class="bold-font margin-bottom-20px">Learn Web Design, Coding &amp; Much More</h1>
+              <p class="semi-bold white-color">Treehouse offers a 7-day free trial to our course library! Choose from 1,000s of hours of content, from JavaScript
+                to Python to iOS. Learn to code and get the skills you need to launch a new career.</p>
+            </div>
+          </div>
+          <div class="col s12 m12 l6 xl6 offset-xl1 ">
+            <div class="lead-generation-form block card">
+              <div class="header center-align teal section-padding-20px">
+                <h2>Try it free for 7 days then
+                  <i class="fa fa-inr"></i>1,650/mo. thereafter</h2>
+              </div>
+              <div class="form-wrapper card-content">
+                <div class="row">
+                  <div class="input-field col s12 m6 l6 xl6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_name" type="text" class="validate">
+                    <label for="icon_name">First Name</label>
+                  </div>
+                  <div class="input-field col s12 m6 l6 xl6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_last_name" type="text" class="validate">
+                    <label for="icon_last_name">Last Name</label>
+                  </div>
+                  <div class="input-field col s12 m6 l6 xl6">
+                    <i class="material-icons prefix">phone</i>
+                    <input id="icon_telephone" type="tel" class="validate">
+                    <label for="icon_telephone">Telephone</label>
+                  </div>
+                  <div class="input-field col s12 m6 l6 xl6">
+                    <i class="material-icons prefix">email</i>
+                    <input id="icon_email" type="email" class="validate">
+                    <label for="icon_email">Email</label>
+                  </div>
+                  <div class="input-field col s12 m6 l12 xl12">
+                    <i class="material-icons prefix">message</i>
+                    <textarea id="icon_message" class="validate materialize-textarea" data-length="120"></textarea>
+                    <label for="icon_message">Message</label>
+                  </div>
+                  <label class="input-field col s12 m12 l12 xl12">
+                    <input type="checkbox" />
+                    <span>I want to hear from Treehouse about products and services.</span>
+                  </label>
+                </div>
+              </div>
+              <div class="card-action block">
+                <div class="col s12 center-align">
+                  <button class="btn waves-effect waves-light" type="submit" name="action" id="toast_js">Submit
+                    <i class="material-icons right">send</i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block about-us-wrapper section-padding-50px">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m12 l12 xl12">
+            <div class="center-align block margin-bottom-50px">
+              <h3 class="bold-font title margin-bottom-5px">Some of the Awesome Stuff You'll Learn</h3>
+              <h4 class="semi-bold sub-title">The fast, easy, and affordable way to build your skills</h4>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4 xl4">
+            <div class="about-us center-align">
+              <img src="images/about-us/about-1.png" class="responsive-img margin-bottom-20px" alt="" />
+              <div class="content">
+                <h4 class="bold-font">Build a website</h4>
+                <p class="block section-padding-20px">
+                  You'll learn the basics to building a website with an introduction to text editors, basic HTML tags, and advanced HTML skills.
+                </p>
+                <a href="#0" class="theme-color semi-bold">Get Started</a>
+              </div>
+
+            </div>
+          </div>
+          <div class="col s12 m6 l4 xl4">
+            <div class="about-us center-align">
+              <img src="images/about-us/about-2.png" class="responsive-img margin-bottom-20px" alt="" />
+
+              <div class="content">
+                <h4 class="bold-font">Learn to Code</h4>
+                <p class="block section-padding-20px">
+                  Learn technologies such as Ruby on Rails to help you build the next world-changing product.
+                </p>
+                <a href="#0" class="theme-color semi-bold">Get Started</a>
+              </div>
+
+            </div>
+          </div>
+          <div class="col s12 m6 l4 xl4 offset-m3">
+            <div class="about-us center-align">
+              <img src="images/about-us/about-3.png" class="responsive-img margin-bottom-20px" alt="" />
+              <div class="content">
+                <h4 class="bold-font">Build an App</h4>
+                <p class="block section-padding-20px">
+                  This is the spot to learn how to build apps. You'll learn the language, tools, and necessary concepts to get your app out
+                  the door.
+                </p>
+                <a href="#0" class="theme-color semi-bold">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faq-wrapper block section-padding-50px teal">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <div class="title center-align margin-bottom-20px">Frequently Asked Questions</div>
+          </div>
+          <div class="col s12 m10 offset-m1 l8 offset-l2 xl8 offset-xl2">
+            <ul class="collapsible popout">
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">filter_drama</i>How much time is required to process a Gold loan with Rupeek?</div>
+                <div class="collapsible-body white-background">
+                  <span>We understand the urgency of your requirement and typically complete 90% of our loans in less than 60 minutes
+                    at the convenience of your home or office. Rupeek provides one of the fastest Gold loan services in Bengaluru.
+                    Once you raise a loan request through the Rupeek app, our Relationship managers will call you immediately
+                    to get the details about your loan need. After confirming the address, our Gold appraisers will reach
+                    your home or office and finish the Gold testing process in about 15 minutes. Once Gold is appraised,
+                    we will initiate the loan amount transfer to your account which typically takes another 5 minutes.</span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">place</i>How can I transfer my Gold loan from existing Gold loan company?</div>
+                <div class="collapsible-body white-background">
+                  <span>We understand the urgency of your requirement and typically complete 90% of our loans in less than 60 minutes
+                    at the convenience of your home or office. Rupeek provides one of the fastest Gold loan services in Bengaluru.
+                    Once you raise a loan request through the Rupeek app, our Relationship managers will call you immediately
+                    to get the details about your loan need. After confirming the address, our Gold appraisers will reach
+                    your home or office and finish the Gold testing process in about 15 minutes. Once Gold is appraised,
+                    we will initiate the loan amount transfer to your account which typically takes another 5 minutes.</span>
+                </div>
+              </li>
+              <li>
+                <div class="collapsible-header">
+                  <i class="material-icons">whatshot</i>How much time is required to process a Gold loan with Rupeek?</div>
+                <div class="collapsible-body white-background">
+                  <span>We understand the urgency of your requirement and typically complete 90% of our loans in less than 60 minutes
+                    at the convenience of your home or office. Rupeek provides one of the fastest Gold loan services in Bengaluru.
+                    Once you raise a loan request through the Rupeek app, our Relationship managers will call you immediately
+                    to get the details about your loan need. After confirming the address, our Gold appraisers will reach
+                    your home or office and finish the Gold testing process in about 15 minutes. Once Gold is appraised,
+                    we will initiate the loan amount transfer to your account which typically takes another 5 minutes.</span>
+                </div>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="block clients-wrapper section-padding-50px blue lighten-5">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m10 offset-m1 m10 offset-m1 l10 offset-l1 xl8 offset-xl2">
+            <div class="center-align">
+              <h3 class="bold-font title margin-bottom-20px">Treehouse is trusted by 297,000+ students and companies worldwide</h3>
+              <img src="images/clients/clients.png" class="responsive-img" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s10 offset-s1 m10 offset-m1 m10 offset-m1 l10 offset-l1 xl6 offset-xl3">
+            <div class="clients-slider-wrapper">
+              <div class="owl-carousel owl-theme">
+                <div class="clients-testimonial section-padding-50px">
+                  <div class="testimonial-content margin-bottom-20px center-align "> Treehouse has a library of lessons that goes far beyond the surface, touching nearly every aspect of how
+                    to design and develop for the web and iOS.</div>
+                  <div class="testimonial-person-details ">
+                    <div class="flex">
+                      <img src="images/testimonial/client.jpg" class="responsive-img" alt="" />
+                      <div class="details">
+                        <h4 class="bold-font margin-bottom-5px">Shay Howe</h4>
+                        <h5>Designer & Developer</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="clients-testimonial section-padding-50px">
+                  <div class="testimonial-content margin-bottom-20px center-align "> Treehouse has a library of lessons that goes far beyond the surface, touching nearly every aspect of how
+                    to design and develop for the web and iOS.</div>
+                  <div class="testimonial-person-details ">
+                    <div class="flex">
+                      <img src="images/testimonial/client.jpg" class="responsive-img" alt="" />
+                      <div class="details">
+                        <h4 class="bold-font margin-bottom-5px">Sandeep Kumar</h4>
+                        <h5>Designer & Developer</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="block download-app-wrapper section-padding-50px center-align teal ">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m10 offset-m1 m10 offset-m1 l10 offset-l1 xl6 offset-xl3  ">
+            <div class="card">
+              <div class="title section-padding-10px">Financial innovation for people.</div>
+              <div class="card-content">Rupeek aims to bring financial inclusion for the masses and introduce products that are transparent, people
+                friendly and provide value for lenders and borrowers. Simplified and affordable gold loans are only the beginning.Rupeek
+                (meaning coining fee in sanskrit), is an asset backed online lending platform, it is disrupting traditional
+                brick-and-mortar lending model.</div>
+              <div class="card-action">
+                <a href="#0" class="btn waves-effect waves-light bold-font pulse">
+                  <i class="material-icons right"> cloud_download</i>Download App Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <footer class="block center-align footer white-color">
+      <div class="container">
+        <div class="title margin-bottom-10px bold-font">Contact Us</div>
+        <div class="sub-title">We are ready to lead you into the future of mobile marketing...</div>
+        <div class="contact-details section-padding-30px">
+          <h5 class="margin-bottom-5px transition">
+            <span>080 39515252</span>
+          </h5>
+          <br/>
+          <h5 class="transition">
+            <span>support@rupeek.com</span>
+          </h5>
+        </div>
+        <div class="social-media-icons">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/" class="transition">
+                <i class="fa fa-facebook transition" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#0" class="transition">
+                <i class="fa fa-twitter transition" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#0" class="transition">
+                <i class="fa fa-linkedin transition" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#0" class="transition">
+                <i class="fa fa-youtube transition" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-animation block "></div>
+      <div class="copy-right-wrapper block text-center section-padding-20px font-small">
+        &copy; 2015-2018 Rupeek Fintech Pvt Ltd.
+      </div>
+    </footer>
+    <!-- Tap Target Structure -->
+    <div class="tap-target teal" data-target="menu">
+      <div class="tap-target-content">
+        <h5 class="white-color">Rupeek Fintech Pvt Ltd</h5>
+        <p class="white-color">email : support@rupeek.com</p>
+      </div>
+    </div>
+    <div class="table-wrapper  block section-padding-50px teal hidden">
+      <div class="container">
+        <table class="striped highlight centered responsive-table">
+          <thead>
+            <tr>
+                <th>Name</th>
+                <th>Item Name</th>
+                <th>Item Price</th>
+            </tr>
+          </thead>
+  
+          <tbody>
+            <tr>
+              <td>Alvin</td>
+              <td>Eclair</td>
+              <td>$0.87</td>
+            </tr>
+            <tr>
+              <td>Alan</td>
+              <td>Jellybean</td>
+              <td>$3.76</td>
+            </tr>
+            <tr>
+              <td>Jonathan</td>
+              <td>Lollipop</td>
+              <td>$7.00</td>
+            </tr>
+          </tbody>
+        </table>
+              
+      </div>
+    </div>
+  </section>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="resources/animate/animate.css" />
+  <link rel="stylesheet" href="resources/owl/owl.carousel.min.css" />
+  <link rel="stylesheet" href="resources/owl/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="resources/owl/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+  <script src="scripts/scripts.js"></script>
+</body>
+
+</html>
